@@ -1,0 +1,55 @@
+
+Status::
+
+
+Test set_accuracy:
+
+Set Accuracy to 100 (100%):
+Input: Call set_accuracy() method and select "1."
+Expected Output: The program should set accuracy to 100.
+
+Set Accuracy to 70 (70%):
+Input: Call set_accuracy() method and select "2."
+Expected Output: The program should set accuracy to 70.
+
+Set Accuracy to 40 (40%):
+Input: Call set_accuracy() method and select "3."
+Expected Output: The program should set accuracy to 40.
+
+Test set_stat:
+
+Set Stat to Physical Attack:
+Input: Call set_stat() method and select "1."
+Expected Output: The program should set stat to "p_attack."
+
+Set Stat to Magical Attack:
+Input: Call set_stat() method and select "2."
+Expected Output: The program should set stat to "m_attack."
+
+Set Stat to Physical Defence:
+Input: Call set_stat() method and select "3."
+Expected Output: The program should set stat to "p_defence."
+
+Set Stat to Magical Defence:
+Input: Call set_stat() method and select "4."
+Expected Output: The program should set stat to "m_defence."
+
+Set Stat to Speed:
+Input: Call set_stat() method and select "5."
+Expected Output: The program should set stat to "speed."
+
+Test increase:
+
+Increase Physical Attack with 40% Accuracy:
+
+Input: Set accuracy to 40, uses to 0, and stat to "p_attack." Call increase("p_attack").
+Expected Output: The program should calculate an increase in Physical Attack using the provided formulas, display the message, and set uses to 3.
+
+Missed Increase with 40% Accuracy:
+
+Input: Set accuracy to 40, uses to 0, and stat to "p_attack." Call increase("p_attack").
+Expected Output: The program should display "Move Missed!" and not change uses or perform any stat increase.
+Edge Case - Maximum Uses Reached:
+
+Input: Set accuracy to 40, uses to 8, and stat to "p_attack." Call increase("p_attack").
+Expected Output: The program should display "Move Missed!" and not change uses or perform any stat increase since the maximum uses value is reached.

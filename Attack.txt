@@ -1,0 +1,50 @@
+Test set_accuracy:
+
+Valid Input:
+
+Input: "75" (a valid input between 50 and 100).
+Expected Output: The program should set the accuracy to 75 and display "Successfully changed accuracy to 75."
+Invalid Input (Below Range):
+
+Input: "30" (an input below the valid range).
+Expected Output: The program should display "Invalid Input. Input must be between 50-100 inclusive."
+Invalid Input (Above Range):
+
+Input: "110" (an input above the valid range).
+Expected Output: The program should display "Invalid Input. Input must be between 50-100 inclusive."
+Test set_attack_type:
+
+Valid Input (Fire):
+
+Input: "1" (to set the attack type to "Fire").
+Expected Output: The program should set the attack type to "Fire" and display "Successfully changed type to Fire."
+Valid Input (Grass):
+
+Input: "2" (to set the attack type to "Grass").
+Expected Output: The program should set the attack type to "Grass" and display "Successfully changed type to Grass."
+Valid Input (Water):
+
+Input: "3" (to set the attack type to "Water").
+Expected Output: The program should set the attack type to "Water" and display "Successfully changed type to Water."
+Invalid Input (Below Range):
+
+Input: "0" (an input below the valid range).
+Expected Output: The program should display "Invalid Input. Input must be between 1-3 inclusive."
+Invalid Input (Above Range):
+
+Input: "4" (an input above the valid range).
+Expected Output: The program should display "Invalid Input. Input must be between 1-3 inclusive."
+Test set_power:
+
+Valid Input (Accuracy = 75):
+
+Input: "75" (setting accuracy to 75).
+Expected Output: The program should calculate the power based on the given accuracy and display the resulting power.
+Valid Input (Accuracy = 50):
+
+Input: "50" (setting accuracy to the minimum value).
+Expected Output: The program should calculate the power based on the given accuracy and display the resulting power.
+Valid Input (Accuracy = 100):
+
+Input: "100" (setting accuracy to the maximum value).
+Expected Output: The program should calculate the power based on the given accuracy and display the resulting power.

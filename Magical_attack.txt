@@ -1,0 +1,29 @@
+Test damage_calc:
+
+Hit (Random Number < Accuracy):
+Input: Set accuracy to "80" (to have a good chance of hitting) and call damage_calc().
+Expected Output: The program should calculate and return the damage based on the formula. If the random number (e.g., 70) is less than accuracy, it should display the damage value.
+
+Miss (Random Number >= Accuracy):
+Input: Set accuracy to "20" (to have a higher chance of missing) and call damage_calc().
+Expected Output: The program should display "Move Missed!" and return 0, indicating that the attack missed.
+
+Test set_opponent_m_defence:
+
+Valid Input:
+
+Input: Set para_m_defence to a valid value, e.g., "60," and call set_opponent_m_defence.
+Expected Output: The program should set opponent_m_defence to the provided value.
+
+Valid Input (Edge Case - Maximum Defence):
+Input: Set para_m_defence to the maximum valid value, e.g., "250," and call set_opponent_m_defence.
+Expected Output: The program should set opponent_m_defence to the provided value.
+
+Invalid Input (Below Range):
+Input: Set para_m_defence to an invalid value, e.g., "0," and call set_opponent_m_defence.
+Expected Output: No specific output is expected, but the function should handle invalid input gracefully without crashing.
+
+Invalid Input (Above Range):
+Input: Set para_m_defence to an invalid value, e.g., "300," and call set_opponent_m_defence.
+Expected Output: No specific output is expected, but the function should handle invalid input gracefully without crashing.
+

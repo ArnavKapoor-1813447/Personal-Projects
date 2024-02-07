@@ -1,0 +1,174 @@
+Input/Output Testing for Character class:
+
+
+
+Certainly, here are some manual input/output test examples for your program:
+
+1. Test Default Constructor:
+
+    Input:
+    - No input required (just run the program).
+
+    Expected Output:
+    - The program should display the default values for the character, e.g., "Name: Character", "Type: Fire", "Health: 100", etc.
+
+2. Test Custom Constructor:
+
+    Input:
+    - None (just run the program with custom constructor values).
+
+    Expected Output:
+    - The program should display the values you set when creating the character with a custom constructor.
+
+3. Test Name Setter:
+
+    Input:
+    - "Kagura Bachi" (to set the name to "Alice").
+
+    Expected Output:
+    - The program should display "New Name: Sucessfully changed name to Kagura Bachi."
+
+4. Test Type Setter:
+
+    Input:
+    - "2" (to set the type to "Grass").
+
+    Expected Output:
+    - The program should display "Sucessfully changed type to Grass."
+
+5. Test Level Setter:
+
+    Input:
+    - "42" (to set the level to 42).
+
+    Expected Output:
+    - The program should display "Sucessfully changed level to 42."
+
+6. Test Health Setter:
+
+    Input:
+    - "80" (to set the health to 80).
+
+    Expected Output:
+    - The program should display "Sucessfully changed health to 80."
+
+7. Test Physical Attack Setter:
+
+    Input:
+    - "70" (to set the physical attack to 70).
+
+    Expected Output:
+    - The program should display "Sucessfully changed physical attack to 70."
+
+8. Test Magical Attack Setter:
+
+    Input:
+    - "60" (to set the magical attack to 60).
+
+    Expected Output:
+    - The program should display "Sucessfully changed magical attack to 60."
+
+9. Test Physical Defence Setter:
+
+    Input:
+    - "50" (to set the physical defence to 50).
+
+    Expected Output:
+    - The program should display "Sucessfully changed physical defence to 50."
+
+10. Test Magical Defence Setter:
+
+    Input:
+    - "40" (to set the magical defence to 40).
+
+    Expected Output:
+    - The program should display "Sucessfully changed magical defence to 40."
+
+11. Test Speed Setter:
+
+    Input:
+    - "30" (to set the speed to 30).
+
+    Expected Output:
+    - The program should display "Sucessfully changed speed to 30."
+
+12. Test Invalid Name Input:
+
+Input:
+
+Enter a name that contains special characters or numbers (e.g., "1234" or "Jo@hn").
+Expected Output:
+
+The program should display an error message like "Invalid name. Name must consist of letters only."
+Test Invalid Type Input:
+
+Input:
+
+Enter a type that is not "1", "2", or "3" (e.g., "4" or "Fire2").
+Expected Output:
+
+The program should display an error message like "Invalid Input. Input must be 1, 2, or 3."
+Test Invalid Level Input:
+
+Input:
+
+Enter a level outside the valid range, e.g., "0", "101", or a non-integer input.
+Expected Output:
+
+The program should display an error message like "Invalid Value. Level must be between 1 and 100 inclusive."
+Test Invalid Health Input:
+
+Input:
+
+Enter a health value outside the valid range, e.g., "0", "251", or a non-integer input.
+Expected Output:
+
+The program should display an error message like "Invalid Value. Health must be between 1 and 250 inclusive."
+Test Invalid Attack Input:
+
+Input:
+
+Enter a physical or magical attack value outside the valid range (e.g., "0", "251", or a non-integer input).
+Expected Output:
+
+The program should display an error message like "Invalid Value. Physical Attack must be between 1 and 250 inclusive."
+Test Invalid Defence Input:
+
+Input:
+
+Enter a physical or magical defence value outside the valid range (e.g., "0", "251", or a non-integer input).
+Expected Output:
+
+The program should display an error message like "Invalid Value. Physical Defence must be between 1 and 250 inclusive."
+Test Invalid Speed Input:
+
+Input:
+
+Enter a speed value outside the valid range (e.g., "0", "251", or a non-integer input).
+Expected Output:
+
+The program should display an error message like "Invalid Value. Speed must be between 1 and 250 inclusive."
+Test Edge Case - Maximum Health:
+
+Input:
+
+Set health to the maximum value (250).
+Expected Output:
+
+The program should display "Sucessfully changed health to 250."
+Test Edge Case - Minimum Level:
+
+Input:
+
+Set level to the minimum value (1).
+Expected Output:
+
+The program should display "Sucessfully changed level to 1."
+Test Empty Name Input:
+
+Input:
+
+Enter an empty name (just press Enter without typing anything).
+Expected Output:
+
+The program should display an error message like "Invalid name. Name must not be empty."
