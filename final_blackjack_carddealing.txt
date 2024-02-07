@@ -1,0 +1,15 @@
+deck initialisation through vectors                
+cards={'Ace','2','3','4','5','6','7','8','9','10','Jack','Queen','King'};
+suit={'Hearts','Spades','Diamonds','Clubs'};
+values=[11,2,3,4,5,6,7,8,9,10,10,10,10];
+
+
+Expected result: 
+"your cards are ('random card vector value' of 'random suit') and ('random card vector value' of 'random suit')
+("your total value is 'sum of random card vector values)                             
+
+
+
+example Actual Output:
+your cards are (3 of Clubs) and (2 of Clubs)
+your total value is 5

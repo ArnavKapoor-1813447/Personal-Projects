@@ -1,0 +1,15 @@
+
+Input                  Expected result                                Actual Output:
+h or H (for hit)       your next card is ""                            your next card is ""
+                       your total value is ""                          your total value is ""                 
+
+
+
+s or S (for stand)    no output but should end loop and dispay:       no output but should end loop and dispay:
+                            dealer cards are "" and ""                 dealer cards are "" and ""
+                             dealer total value is ""                  dealer total value is ""
+
+
+
+invalid input         Invalid input, please enter 'h' or 's'                Invalid input, please enter 'h' or 's'          
+                      Hit(H), Stay(S):                                      Hit(H), Stay(S): 

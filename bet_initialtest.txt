@@ -1,0 +1,14 @@
+Input                          Expected output                                                 Actual Output
+betinitial>usercapital or < 0    displays "chosen message", asks user to input bet again   displays "chosen message", asks user to input bet again
+
+bet_initial>=(user_capital/2)  "Guess someone never learned risk management, he he he" "Guess someone never learned risk management, he he he"
+
+
+bet_initial <= (user_capital/20) "Guess someone's here to make chump change returns, may I suggest an index fund instead"  
+actual output: "Guess someone's here to make chump change returns, may I suggest an index fund instead"
+
+all other values              "a basic bet for a basic ... man"                  "a basic bet for a basic ... man" 
+
+
+
+ 

@@ -1,0 +1,25 @@
+Input                              expected output                                      Actual output
+playerinitialhand>21              "bust message" function ends, bet minused                 "bust message" function ends, bet minused
+playerinitialhand==21    "blackjack message" with 3:2 odds paid on capital       "blackjack message" with 3:2 odds paid on capital
+playerinitialhand<21            hit/stand loop initiates                                 hit/stand loop initiates
+
+Conditions testing during hit/stand loop:
+playeralteredhand>21                "bust message" function ends, bet minused       "bust message" function ends, bet minused 
+playeralteredhand==21    "blackjack message" with 2:1 odds paid on capital       "blackjack message" with 2:1 odds paid on capital
+playeralteredhand<21          hit/stand loops repeats                             hit/stand loops repeats  
+
+conditions for dealer hand after player stands:
+dealerinitialhand>21              "bust message" function ends, bet value added        "bust message" function ends, bet value added
+dealerinitialhand==21                 "blackjack message", bet minused                          "blackjack message", bet minused
+dealerinitialhand<17                 hit loop starts                                          hit  loop starts
+
+when dealerhand>17 and <21 (either initial or altered hand) after player stands following conditions tested:
+dealerhand>playerhand              "dealer wins" message, bet minused                    "dealer wins" message, bet minused
+dealerhand<playerhand              "player wins" message, bet value added                  "dealer wins" message, bet value added 
+dealerhand==playerhand              "standoff", no changes to capital                   "standoff", no changes to capital 
+
+Other conditon: 
+dealerhand==22                       "standoff", no changes to capital                   "standoff", no changes to capital
+
+
+

@@ -1,0 +1,27 @@
+
+Input                  Expected result                                                             
+Y                     function moves on to next step and displays "How much leverage would you like (your leverage can only be a max of 25x                       and in whole numbers, otherwise we will round it to the nearest number"
+
+Actual output: function did move on to next step and displays "How much leverage would you like (your leverage can only be a max of 25x                       and in whole numbers, otherwise we will round it to the nearest number"
+
+
+Input                     Expected result                                     Actual output:                         
+N                     While loop turns off and function stops                 While loop turns off and function stops      
+
+
+Input                                               Expected result                                     Actual output:                      anything other than N or Y (lower or upper)       input message displays again                         input message dsplays again 
+
+
+Input for leverage multiplier:                    Expected result                                     Actual output:                      5     5                                               5                                                  5
+    5.5                                             6                                                  6
+    27                                            input message displays again                         input message dsplays again 
+   -2                                            input message dsplays again                           input message displays again 
+
+    
+
+
+
+
+
+
+             

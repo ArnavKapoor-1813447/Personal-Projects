@@ -1,0 +1,8 @@
+Input:                                       expected output:                            Actual Output:
+usercapital<100                 "ALL RIGHT, LET'S BEGIN MY CASH-STRAPPED FRIEND!"   "ALL RIGHT, LET'S BEGIN MY CASH-STRAPPED FRIEND!"
+
+usercapital>=1000 "Are you single by any chance, he he he I am simply jesting. ALL RIGHT LET US BEGIN!!!"   
+Actual output: "Are you single by any chance, he he he I am simply jesting. ALL RIGHT LET US BEGIN!!!"
+
+
+usercapital>=100 && usercapital<1000             ALL RIGHT LET US BEGIN!!"            "ALL RIGHT LET US BEGIN!!"
