@@ -1,7 +1,7 @@
 # Personal Projects Repository
 
 ## Description
-This repository serves as a collection of various personal projects developed by the author. Each branch contains a different project, ranging from web applications to machine learning models and more.
+This repository serves as a collection of various personal projects developed by me. Each branch contains a different project, from a variety of different programming languages.
 
 ## Branches
 Each branch of this repository corresponds to a different project. Below is a list of branches and their associated projects:
