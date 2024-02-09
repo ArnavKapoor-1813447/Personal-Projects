@@ -1,6 +1,6 @@
 # Character Customization and Battle Simulation
 
-##Overview
+## Overview
 This C++ program allows two players to create and customize characters for a 1v1 battle simulation. Players can give their characters names, choose a character type (Fire, Water, or Grass), and allocate attribute points to various stats, such as health, attack, defense, and speed. The characters' stats determine their performance in the battle simulation. Additionally, the program includes a set of related classes that contribute to the battle simulation:
 
 Character: The base class for all characters.
