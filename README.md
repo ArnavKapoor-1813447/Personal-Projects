@@ -1,7 +1,19 @@
-# Personal-Projects
+# Personal Projects Repository
 
--All my project code is within different branches of the repository. 
--Each branch is named after the project. 
+## Description
+This repository serves as a collection of various personal projects developed by the author. Each branch contains a different project, ranging from web applications to machine learning models and more.
 
+## Branches
+Each branch of this repository corresponds to a different project. Below is a list of branches and their associated projects:
 
--By Arnav Kapoor
+- **Blackjack-With-Leveraging**: a MATLAB program for playing Blackjack, incorporating leveraging strategies to optimize gameplay and simulate various betting scenarios.
+- **Pokemon-Action-Simulator**: • A customizable game in C++ inspired by Pokémon, allowing players to personalize their characters and engage in battles. 
+
+## Installation
+To install and set up each project from its corresponding branch, follow these general steps:
+1. Clone the repository to your local machine:
+2. Refer to Readme of each project for more specific usage instructions
+
+```bash
+git clone https://github.com/your_username/personal-projects.git
+
