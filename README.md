@@ -15,5 +15,5 @@ To install and set up each project from its corresponding branch, follow these g
 2. Refer to Readme of each project for more specific usage instructions
 
 ```bash
-git clone https://github.com/your_username/personal-projects.git
+git clone https://github.com/ArnavKapoor-1813447/Personal-Projects.git
 
