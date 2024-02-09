@@ -1,6 +1,6 @@
-Character Customization and Battle Simulation
+# Character Customization and Battle Simulation
 
-Overview
+##Overview
 This C++ program allows two players to create and customize characters for a 1v1 battle simulation. Players can give their characters names, choose a character type (Fire, Water, or Grass), and allocate attribute points to various stats, such as health, attack, defense, and speed. The characters' stats determine their performance in the battle simulation. Additionally, the program includes a set of related classes that contribute to the battle simulation:
 
 Character: The base class for all characters.
@@ -10,7 +10,7 @@ PhysicalAttack: A class that models physical attacks.
 MagicalAttack: A class that models magical attacks.
 Movepool: A class that manages a character's available moves and attacks.
 
-Getting Started
+## Getting Started
 To run this program, follow these steps:
 Ensure you have a C++ compiler installed on your system.
 Download or clone the source code from the repository.
@@ -71,11 +71,11 @@ Movepool.h: Header file for the Movepool class.
 Movepool.cpp: Implementation of the Movepool class methods.
 main.cpp: The main program that drives the character customization and battle simulation.
 
-Usage
+## Usage
 Run the program by compiling and executing main.cpp.
 Follow the on-screen prompts to customize your character.
 Allocate attribute points and choose moves to create your character's stats and moves.
 Start the battle simulation with your customized characters.
 
-Contributors
+## Contributors
 This project was created by Arnav Kapoor, Galvin Huang, Asad Ismail. Feel free to contribute, make improvements, or report any issues through GitHub.
