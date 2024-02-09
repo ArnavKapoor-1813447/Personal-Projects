@@ -1,4 +1,4 @@
-## BlackJack with Leveraging
+# BlackJack with Leveraging
 
 ##Overview
 This matlab program allows the player to engage in a game of blackjack with the programmed dealer and can utilise leveraging to bet. The dealer will generate dialogues based on all situations the player may encounter. The program also displays images after conditions after certain scenarios has been reached. 
