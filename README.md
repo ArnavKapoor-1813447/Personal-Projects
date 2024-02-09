@@ -6,8 +6,8 @@ This repository serves as a collection of various personal projects developed by
 ## Branches
 Each branch of this repository corresponds to a different project. Below is a list of branches and their associated projects:
 
-- **Blackjack-With-Leveraging**: a MATLAB program for playing Blackjack, incorporating leveraging strategies to optimize gameplay and simulate various betting scenarios.
-- **Pokemon-Action-Simulator**: • A customizable game in C++ inspired by Pokémon, allowing players to personalize their characters and engage in battles. 
+- **Blackjack-With-Leveraging**: A MATLAB program for playing Blackjack, incorporating leveraging strategies to optimize gameplay and simulate various betting scenarios.
+- **Pokemon-Action-Simulator**: A customizable game in C++ inspired by Pokémon, allowing players to personalize their characters and engage in battles. 
 
 ## Installation
 To install and set up each project from its corresponding branch, follow these general steps:
